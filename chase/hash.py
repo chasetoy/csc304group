@@ -36,10 +36,6 @@ def main():
         for line in f:
             (key, val) = line.split()
             encrypt.put(key, val)
-	
-	with open("test.txt") as e:
-		for line
-
 
     print("DONE!")
 
