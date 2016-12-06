@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final Project</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="nivo-slider.css">
+    <link rel="stylesheet" href="files/default/default.css">
+    <link rel="stylesheet" href="files/fancybox/jquery.fancybox.css">
+
+</head>
+
+    <div id="header">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Encryption Vs. Hashing</h1>
+    </div>
+
+    <br>
+
+<body>
+    <div id="container">
+        <div id="content-container">
+          <div id="sidebar">
+            <button onclick="myFunction()" class="dropbtn">Topics</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="index.html">Home</a>
+              <a href="rsa.html">RSA</a>
+              <a href="des.html">DES & 3DES</a>
+              <a href="hashing.html">Hashing</a>
+            </div>
+            <script>
+            /* When the user clicks on the button,
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>
+            <button onclick="myFunction2()" class="dropbtn">Sources</button>
+            <div id="myDropdown2" class="dropdown-content">
+              <a href="sha2.html">SHA</a>
+              <a href="des2.html">DES</a>
+              <a href="rsa2.html">RSA</a>
+            </div>
+            <script>
+            /* When the user clicks on the button,
+            toggle between hiding and showing the dropdown content */
+            function myFunction2() {
+                document.getElementById("myDropdown2").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>
+            <br>
+            <a class="twitter-timeline" href="https://twitter.com/RSAsecurity" data-widget-id="525135696688734208">Tweets by @RSAsecurity</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+          </div>
+            <div id="content">
+              <h1>About the Project</h1>
+              <hr>
+              <br>
+              <br>
+              <p>
+                &emsp; For our final project, our group chose to compare encryption and hashing. For this project, we researched the different methods of encryption (RSA & DES), and the different methods of hashing (SHA256 & MD5). This website is a means to cover main speaking points of the paper becuase we know reading a ten page paper would not be a good way to present our information. We decided to present our ideas in the form of a paper where we discuss the background of encryption and hashing.
+              </p>
+              <br>
+              <p>
+                 &emsp; As the group leader, I assigned roles from the beginning and the only thing that has changed since then is that instead of Shae and I working on the program, we worked on the final paper. Ben was tasked with the powerpoint we gave to you at the beginning of the presentation, and Laura and myself split the load of the website.
+              </p>
+              <br>
+              <br>
+              <hr>
+
+            </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="footer">
+            <h6></h6>
+        </div>
+    </div>
+    <script src="js/jquery-3.1.1.mi	n.js"></script>
+	  <script src="js/jquery.nivo.slider.pack.js"></script>
+	  <script src="js/jquery-ui.min.js"></script>
+	  <script src="js/script.js"></script>
+</body>
+</html>

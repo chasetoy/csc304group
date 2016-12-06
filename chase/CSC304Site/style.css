@@ -1,0 +1,154 @@
+@import url("reset.css");
+
+body{
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#container{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    background-color: rgb(92,89,36);
+    height: 300px;
+    width: 925px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0 auto;
+	  border: 10px solid white;
+}
+
+h1{
+    font-size: 44px;
+    line-height: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+ol{
+    list-style-type: lower-alpha;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+p{
+  font-size: 24px;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+
+li{
+    font-size: 24px;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+
+#content-container{
+
+}
+
+#content{
+    width: 65%;
+    float: left;
+    background: #d9d9d9;
+    border: 5px solid white;
+    margin-left: 25px;
+    padding: 10px;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+#menu{
+
+}
+
+#sidebar{
+    background: #d9d9d9;
+    width: 25%;
+    float: left;
+    padding: 10px;
+    margin-left: 5px;
+    border: 5px solid white;
+}
+
+.rider {
+	width: 250px;
+	margin: 0 auto 25px auto;
+    display: block;
+    padding-top: 20px;
+}
+
+#footer{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h6{
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin-top: auto;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgb(92, 89, 24);
+    width: 100%;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(230, 183, 62);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(230, 183, 62)}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
