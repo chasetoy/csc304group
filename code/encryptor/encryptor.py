@@ -1,3 +1,8 @@
+#this code was created by following a guide I (Chase) found on the internet
+#that utilizes the python PyCrypto module to use AES and SHA to encrypt files
+#as well as decrypt them
+
+
 import os
 import random
 from Crypto.Cipher import AES
@@ -5,7 +10,7 @@ from Crypto.Hash import SHA256
 
 def encrypt(key, filename):
 	chunksize = 64*1024
-	outputFile = "(encrypted)"+filename
+	outputFile = "encrypted"+filename
 	filesize = str(os.path.getsize(filename)).zfill(16)
 	IV = ''
 
